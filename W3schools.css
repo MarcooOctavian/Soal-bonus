@@ -1,0 +1,129 @@
+body{
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d9eee1;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color:#15202b ;
+    margin: auto;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-radius: 0;
+    table-layout: fixed;
+}
+.navbar a {
+    background-color:#15202b;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #262830;
+}
+
+.navbar a:active {
+    background-color: #7289DA;
+}
+
+.desc{
+    text-align: center;
+    font-size: 16px;
+}
+.content {
+    width: 100%;
+    border-spacing: 0;
+    text-align: center;
+}
+button{
+    width:300px;
+    height: 60px; 
+    padding: 10px 20px;  
+    margin-bottom: 35px;
+    text-align: center;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    color:white;
+}
+.green {
+    background-color: #04aa6d;
+}
+.black {
+    background-color: black;
+}
+.pink{
+    background-color: #FFC0C7;
+    color:black;
+}
+.left {
+    width: 50%;
+    padding: 0px;
+}
+.right {
+    max-width: 50%;
+    text-align: left;
+}
+.insideofinside{
+    background-color: #38444d;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: left;
+    color: white;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-right: 29%;
+}
+.insideofinsideofinside {
+    background-color: #15202b;
+    color: lightskyblue;
+    font-family: 'Courier New';
+    text-align:left;
+    vertical-align: top;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+.yourself {
+    color: white;
+    background-color: #04aa6d;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.example{
+    font-size: 20px;
+}
+.head2{
+    color: white;
+    text-align: left;
+    font-weight: 200;
+    margin:10px;
+    padding: 2px;
+}
+.css {
+    width: 100%;
+    border-spacing: 0;
+    text-align: center;
+    background-color: #FFF4A3;
+}
+.js {
+    width: 100%;
+    border-spacing: 0;
+    text-align: center;
+    background-color: #F3ECEA;
+}
